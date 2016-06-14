@@ -22,8 +22,20 @@ body {
   color: #2aa198;
 }
 
-/* some fancy blinking text (throwback to the late 90s!)
-   courtesy of http://fredericiana.com/2012/11/04/html5-blink-tag/ */
+.split-top-bot {
+    border-color:  #93a1a1;
+}
+
+.split-content {
+    border-color: #586e75;
+}
+
+/*
+------
+some fancy blinking text (throwback to the late 90s!)
+   courtesy of http://fredericiana.com/2012/11/04/html5-blink-tag/
+------
+*/
 
 .blink {
     animation-duration: 1s;
