@@ -6,9 +6,24 @@
     <link src="style.css" rel="stylesheet">
   </head>
   <body>
+    <header>
+      <div class="header-content">
+        <h1 id="header-heading">html-css-refresher project</h1>
+        <p class="head-content">
+        : this is the header!<br/> <!-- using a line break to force the formatting -->
+        : this is information that is inside the header. it's just a quick explanation about what this is <br/>
+        : this is an example webpage created with html/css intended to be run locally in your browser. <br/>
+        :: for this reason, you won't be able to see images that you link to. if this is something you want to do, there are other options.<br/>
+        : for now, don't worry too much if you're having some trouble with your images acting strangely...<br/><br/>
+        <span id="fancy-brace">></span> now for the content ! <!-- using a span for some fancyness -->
+        </p>
+      </div> <!-- end "header-content" div -->
+      <hr/> <!-- horizontal rule is a line across page -->
+      <hr/> <!-- horizontal rule is a line across page -->
+    </header>
     <div class="main-container">
-      <h2>welcome to the example page!</h2>
         <section id="intro-section">
+          <h2>welcome to the example page!</h2>
           <p class="main-content">this is the first paragraph and it has a class of "main-content" you should make sure to add some classes to your work as well so that you can practice doing it!</p>
           <p class="main-content">here's a second paragraph that shares the same class as the first, so any style changes that are made to that class (or to the paragraph selector) will target both of these.</p>
           <br/> <!-- linebreak! -->
@@ -17,8 +32,8 @@
           <p>now that you've finished this section, lets move on to read some lists!</p>
           <hr id="split-one"/> <!-- horizontal rule is a line across page -->
         </section> <!-- end "intro-section" section -->
-      <h3>totally awesome lists!</h3>
         <section id="list-section">
+          <h3>totally awesome lists!</h3>
           <p>i'm going to list out some html elements for your enjoyment</p>
           <ul class="first-list">
             <li>headings!</li>
@@ -35,6 +50,18 @@
             <li>unicorns!</li>
           </ol>
         </section> <!-- end "list-section" section -->
+        <hr id="split-two"/> <!-- horizontal rule is a line across page -->
+        <section id="links-section">
+          <h3>time for some links!</h3>
+            <p>here are some totally cool links to check out. note that they're being stored inside an unordered list!</p>
+            <!-- check out the fancy uses of span and ids! -->
+            <ul id="links-list">
+              <li><a href="digitalharbor.org"></a>digital harbor foundation</li>
+              <li><a href="learn.digitalharbor.org"></a><span id="power-learn">learn @ dhf</span></li>
+              <li><a href="blueprint.digitalharbor.org"></a><span id="fancy-blueprint">dhf blueprint</span></li>
+              <li><a href="github.com"></a>github!</li>
+            </ul>
+        </section> <!-- end of "links-section" section -->
       </div> <!-- "main-container" div -->
   </body>
 </html>
